@@ -1,0 +1,19 @@
+row_id,section,amount_type,label,value_raw,value_kind,amount,row_integrity_ok,page,bbox,evidence_crop
+assets-01,assets,asset_value,Example Savings Bank Checking Account ending in #0000,"$82,500.00",amount,82500.00,True,1,"[78.0, 385.2, 534.0, 397.2]",evidence/assets-01.png
+assets-02,assets,asset_value,Example Brokerage Account ending in #1111,"$41,250.00",amount,41250.00,True,1,"[78.0, 402.4, 534.0, 414.4]",evidence/assets-02.png
+debts-01,debts,lease_charges_due,Rents or charges due on any lease or apartment,None,none,0.00,True,1,"[78.0, 474.6, 534.0, 486.6]",evidence/debts-01.png
+debts-02,debts,mortgage_or_notes_outstanding,Amount of any outstanding mortgages or notes,None,none,0.00,True,1,"[78.0, 490.8, 534.0, 502.8]",evidence/debts-02.png
+debts-03,debts,judgments_outstanding,Amount of any judgments held against the decedent or his estate,None,none,0.00,True,1,"[78.0, 507.0, 534.0, 533.2]",evidence/debts-03.png
+debts-04,debts,bond_liability,Liability of any bond on which the decedent was a party,None,none,0.00,True,1,"[78.0, 537.4, 534.0, 563.6]",evidence/debts-04.png
+debts-05,debts,tax_federal_income_due,Federal income taxes due,None,none,0.00,True,1,"[78.0, 567.8, 534.0, 579.8]",evidence/debts-05.png
+debts-06,debts,tax_ny_income_due,New York State and/or City income taxes due,"$1,204.00",amount,1204.00,True,1,"[78.0, 584.0, 534.0, 596.0]",evidence/debts-06.png
+debts-07,debts,tax_real_estate_due,Real estate taxes due,None,none,0.00,True,1,"[78.0, 600.2, 534.0, 612.2]",evidence/debts-07.png
+debts-08,debts,tax_federal_estate_due,Federal estate taxes due,Exempt,exempt,,True,1,"[78.0, 616.4, 534.0, 628.4]",evidence/debts-08.png
+debts-09,debts,tax_ny_estate_due,New York estate taxes due,Exempt,exempt,,True,1,"[78.0, 632.6, 534.0, 644.6]",evidence/debts-09.png
+debts-10,debts,medical_expenses_outstanding,"Amount of outstanding doctor, hospital or medical expenses due not covered by insurance",None,none,0.00,True,1,"[78.0, 648.8, 534.0, 675.0]",evidence/debts-10.png
+debts-11,debts,funeral_expenses_paid,Amount of funeral expenses paid,"$9,840.15",amount,9840.15,True,1,"[78.0, 679.2, 534.0, 691.2]",evidence/debts-11.png
+debts-12,debts,funeral_expenses_outstanding,Amount of funeral expenses still outstanding,None,none,0.00,True,1,"[78.0, 695.4, 534.0, 707.4]",evidence/debts-12.png
+debts-13,debts,credit_card_balances,Amount of credit card balances—not paid off by credit card insurance,None,none,0.00,True,1,"[78.0, 711.6, 534.0, 737.8]",evidence/debts-13.png
+debts-14,debts,business_engaged_flag,"At the time of death, was the decedent engaged in any business?",No,yes_no,,True,2,"[78.0, 74.2, 534.0, 100.4]",evidence/debts-14.png
+debts-15,debts,business_liabilities_outstanding,Amount of any outstanding business liabilities payable by decedent and/or his estate,None,none,0.00,True,2,"[78.0, 104.6, 534.0, 130.8]",evidence/debts-15.png
+debts-16,debts,public_assistance_received,"Amount of any federal, state or city public assistance which the decedent (or any distributee) ever received",None,none,0.00,True,2,"[78.0, 135.0, 534.0, 175.4]",evidence/debts-16.png

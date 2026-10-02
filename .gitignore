@@ -1,0 +1,7 @@
+# private source documents and anything extracted from them
+input/
+out/
+*.har
+.env
+__pycache__/
+*.pyc

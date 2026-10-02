@@ -1,0 +1,614 @@
+{
+  "source_file": "synthetic_affidavit.pdf",
+  "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+  "template": "Dispense_bond",
+  "extracted_at": "2026-10-02T12:10:09+00:00",
+  "header": [
+    {
+      "name": "court",
+      "value": "SURROGATE’S COURT OF THE STATE OF NEW YORK",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          72.0,
+          74.2,
+          368.99,
+          86.2
+        ],
+        "crop": null
+      },
+      "pii": false
+    },
+    {
+      "name": "county",
+      "value": "Kings",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          72.0,
+          88.2,
+          179.99,
+          100.2
+        ],
+        "crop": null
+      },
+      "pii": false
+    },
+    {
+      "name": "proceeding_type",
+      "value": "Probate",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          108.2,
+          219.97,
+          120.2
+        ],
+        "crop": null
+      },
+      "pii": false
+    },
+    {
+      "name": "decedent",
+      "value": "Margaret Holloway",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          136.2,
+          172.31,
+          148.2
+        ],
+        "crop": null
+      },
+      "pii": true
+    },
+    {
+      "name": "document_title",
+      "value": "AFFIDAVIT TO DISPENSE WITH THE FILING OF A BOND",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          375.0,
+          136.2,
+          550.64,
+          161.2
+        ],
+        "crop": null
+      },
+      "pii": false
+    },
+    {
+      "name": "file_no",
+      "value": "2026-0000/A",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          361.0,
+          177.2,
+          467.33,
+          189.2
+        ],
+        "crop": null
+      },
+      "pii": false
+    },
+    {
+      "name": "petitioner",
+      "value": "Daniel R. Holloway",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          84.0,
+          260.2,
+          279.65,
+          272.2
+        ],
+        "crop": null
+      },
+      "pii": true
+    },
+    {
+      "name": "petitioner_roles",
+      "value": "distributee, petitioner, proposed_executor",
+      "status": "extracted",
+      "evidence": null,
+      "pii": false
+    },
+    {
+      "name": "petitioner_address",
+      "value": "48 Example Street, Apt 2B, Springfield, IL 62701",
+      "status": "extracted",
+      "evidence": null,
+      "pii": true
+    },
+    {
+      "name": "decedent_age",
+      "value": "88",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 2,
+        "bbox": [
+          151.31,
+          186.2,
+          231.62,
+          198.2
+        ],
+        "crop": null
+      },
+      "pii": true
+    },
+    {
+      "name": "sworn_date",
+      "value": "2026-03-03",
+      "status": "extracted",
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 2,
+        "bbox": [
+          72.0,
+          433.2,
+          300.96,
+          445.2
+        ],
+        "crop": null
+      },
+      "pii": false
+    }
+  ],
+  "line_items": [
+    {
+      "row_id": "assets-01",
+      "section": "assets",
+      "label": "Example Savings Bank Checking Account ending in #0000",
+      "amount_type": "asset_value",
+      "value_raw": "$82,500.00",
+      "value_kind": "amount",
+      "amount": "82500.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          385.2,
+          534.0,
+          397.2
+        ],
+        "crop": "evidence/assets-01.png"
+      }
+    },
+    {
+      "row_id": "assets-02",
+      "section": "assets",
+      "label": "Example Brokerage Account ending in #1111",
+      "amount_type": "asset_value",
+      "value_raw": "$41,250.00",
+      "value_kind": "amount",
+      "amount": "41250.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          402.4,
+          534.0,
+          414.4
+        ],
+        "crop": "evidence/assets-02.png"
+      }
+    },
+    {
+      "row_id": "debts-01",
+      "section": "debts",
+      "label": "Rents or charges due on any lease or apartment",
+      "amount_type": "lease_charges_due",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          474.6,
+          534.0,
+          486.6
+        ],
+        "crop": "evidence/debts-01.png"
+      }
+    },
+    {
+      "row_id": "debts-02",
+      "section": "debts",
+      "label": "Amount of any outstanding mortgages or notes",
+      "amount_type": "mortgage_or_notes_outstanding",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          490.8,
+          534.0,
+          502.8
+        ],
+        "crop": "evidence/debts-02.png"
+      }
+    },
+    {
+      "row_id": "debts-03",
+      "section": "debts",
+      "label": "Amount of any judgments held against the decedent or his estate",
+      "amount_type": "judgments_outstanding",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          507.0,
+          534.0,
+          533.2
+        ],
+        "crop": "evidence/debts-03.png"
+      }
+    },
+    {
+      "row_id": "debts-04",
+      "section": "debts",
+      "label": "Liability of any bond on which the decedent was a party",
+      "amount_type": "bond_liability",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          537.4,
+          534.0,
+          563.6
+        ],
+        "crop": "evidence/debts-04.png"
+      }
+    },
+    {
+      "row_id": "debts-05",
+      "section": "debts",
+      "label": "Federal income taxes due",
+      "amount_type": "tax_federal_income_due",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          567.8,
+          534.0,
+          579.8
+        ],
+        "crop": "evidence/debts-05.png"
+      }
+    },
+    {
+      "row_id": "debts-06",
+      "section": "debts",
+      "label": "New York State and/or City income taxes due",
+      "amount_type": "tax_ny_income_due",
+      "value_raw": "$1,204.00",
+      "value_kind": "amount",
+      "amount": "1204.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          584.0,
+          534.0,
+          596.0
+        ],
+        "crop": "evidence/debts-06.png"
+      }
+    },
+    {
+      "row_id": "debts-07",
+      "section": "debts",
+      "label": "Real estate taxes due",
+      "amount_type": "tax_real_estate_due",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          600.2,
+          534.0,
+          612.2
+        ],
+        "crop": "evidence/debts-07.png"
+      }
+    },
+    {
+      "row_id": "debts-08",
+      "section": "debts",
+      "label": "Federal estate taxes due",
+      "amount_type": "tax_federal_estate_due",
+      "value_raw": "Exempt",
+      "value_kind": "exempt",
+      "amount": null,
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          616.4,
+          534.0,
+          628.4
+        ],
+        "crop": "evidence/debts-08.png"
+      }
+    },
+    {
+      "row_id": "debts-09",
+      "section": "debts",
+      "label": "New York estate taxes due",
+      "amount_type": "tax_ny_estate_due",
+      "value_raw": "Exempt",
+      "value_kind": "exempt",
+      "amount": null,
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          632.6,
+          534.0,
+          644.6
+        ],
+        "crop": "evidence/debts-09.png"
+      }
+    },
+    {
+      "row_id": "debts-10",
+      "section": "debts",
+      "label": "Amount of outstanding doctor, hospital or medical expenses due not covered by insurance",
+      "amount_type": "medical_expenses_outstanding",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          648.8,
+          534.0,
+          675.0
+        ],
+        "crop": "evidence/debts-10.png"
+      }
+    },
+    {
+      "row_id": "debts-11",
+      "section": "debts",
+      "label": "Amount of funeral expenses paid",
+      "amount_type": "funeral_expenses_paid",
+      "value_raw": "$9,840.15",
+      "value_kind": "amount",
+      "amount": "9840.15",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          679.2,
+          534.0,
+          691.2
+        ],
+        "crop": "evidence/debts-11.png"
+      }
+    },
+    {
+      "row_id": "debts-12",
+      "section": "debts",
+      "label": "Amount of funeral expenses still outstanding",
+      "amount_type": "funeral_expenses_outstanding",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          695.4,
+          534.0,
+          707.4
+        ],
+        "crop": "evidence/debts-12.png"
+      }
+    },
+    {
+      "row_id": "debts-13",
+      "section": "debts",
+      "label": "Amount of credit card balances—not paid off by credit card insurance",
+      "amount_type": "credit_card_balances",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 1,
+        "bbox": [
+          78.0,
+          711.6,
+          534.0,
+          737.8
+        ],
+        "crop": "evidence/debts-13.png"
+      }
+    },
+    {
+      "row_id": "debts-14",
+      "section": "debts",
+      "label": "At the time of death, was the decedent engaged in any business?",
+      "amount_type": "business_engaged_flag",
+      "value_raw": "No",
+      "value_kind": "yes_no",
+      "amount": null,
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 2,
+        "bbox": [
+          78.0,
+          74.2,
+          534.0,
+          100.4
+        ],
+        "crop": "evidence/debts-14.png"
+      }
+    },
+    {
+      "row_id": "debts-15",
+      "section": "debts",
+      "label": "Amount of any outstanding business liabilities payable by decedent and/or his estate",
+      "amount_type": "business_liabilities_outstanding",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 2,
+        "bbox": [
+          78.0,
+          104.6,
+          534.0,
+          130.8
+        ],
+        "crop": "evidence/debts-15.png"
+      }
+    },
+    {
+      "row_id": "debts-16",
+      "section": "debts",
+      "label": "Amount of any federal, state or city public assistance which the decedent (or any distributee) ever received",
+      "amount_type": "public_assistance_received",
+      "value_raw": "None",
+      "value_kind": "none",
+      "amount": "0.00",
+      "row_integrity_ok": true,
+      "evidence": {
+        "source_sha256": "8ce2307edeb8e99a155db9f8e12ec35cae464265f3379916d100ccbe37e65c6a",
+        "page": 2,
+        "bbox": [
+          78.0,
+          135.0,
+          534.0,
+          175.4
+        ],
+        "crop": "evidence/debts-16.png"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "check": "asset_sum_ties_to_stated_total",
+      "passed": true,
+      "detail": {
+        "asset_rows": 2,
+        "asset_sum": "123750.00",
+        "stated_total": "123750.00",
+        "stated_total_evidence": {
+          "page": 2,
+          "bbox": [
+            105.66,
+            310.2,
+            386.95,
+            322.2
+          ]
+        }
+      }
+    },
+    {
+      "check": "row_integrity_label_and_value_same_band",
+      "passed": true,
+      "detail": {
+        "rows_checked": 18,
+        "misaligned_rows": []
+      }
+    },
+    {
+      "check": "debt_rows_match_template",
+      "passed": true,
+      "detail": {
+        "expected": 16,
+        "extracted": 16,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "check": "every_row_has_record_specific_evidence",
+      "passed": true,
+      "detail": {
+        "rows_without_crop": []
+      }
+    },
+    {
+      "check": "entity_not_copied_from_title",
+      "passed": true,
+      "detail": {
+        "decedent": "Margaret Holloway",
+        "document_title": "AFFIDAVIT TO DISPENSE WITH THE FILING OF A BOND"
+      }
+    }
+  ],
+  "completeness": {
+    "header_fields_extracted": 11,
+    "header_fields_total": 11,
+    "blank_on_source": [],
+    "not_found": []
+  }
+}
